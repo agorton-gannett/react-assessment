@@ -3,13 +3,13 @@
   "version": "4.0.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "latest",
+    "@material-ui/core": "4.12.3",
     "clsx": "latest",
-    "eslint-config-airbnb": "^18.2.0",
-    "next": "latest",
+    "eslint-config-airbnb": "^18.2.1",
+    "next": "11.1.0",
     "prop-types": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "scripts": {
     "dev": "next",
@@ -20,15 +20,15 @@
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.10.3",
-    "@babel/preset-react": "^7.10.1",
-    "@testing-library/jest-dom": "^5.11.0",
-    "@testing-library/react": "^10.4.3",
-    "babel-jest": "^26.1.0",
-    "eslint": "^7.3.1",
-    "eslint-plugin-react": "^7.20.2",
-    "jest": "^26.1.0",
-    "react-test-renderer": "^16.13.1"
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.24.0",
+    "jest": "^27.0.6",
+    "react-test-renderer": "^17.0.2"
   },
   "jest": {
     "transform": {
